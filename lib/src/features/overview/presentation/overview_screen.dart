@@ -7,7 +7,14 @@ import 'package:dirty_code/src/features/dirty_screen_14/presentation/dirty_scree
 import 'package:dirty_code/src/features/dirty_screen_15/presentation/dirty_screen_fifteen.dart';
 import 'package:dirty_code/src/features/dirty_screen_16/presentation/dirty_screen_sixteen.dart';
 import 'package:dirty_code/src/features/dirty_screen_17/presentation/dirty_screen_seventeen.dart';
+import 'package:dirty_code/src/features/dirty_screen_18/presentation/dirty_screen_eighteen.dart';
+import 'package:dirty_code/src/features/dirty_screen_19/presentation/dirty_screen_nineteen.dart';
 import 'package:dirty_code/src/features/dirty_screen_2/presentation/dirty_screen_two.dart';
+import 'package:dirty_code/src/features/dirty_screen_20/presentation/dirty_screen_twenty.dart';
+import 'package:dirty_code/src/features/dirty_screen_21/presentation/dirty_screen_twentyone.dart';
+import 'package:dirty_code/src/features/dirty_screen_22/presentation/dirty_screen_twentytwo.dart';
+import 'package:dirty_code/src/features/dirty_screen_23/presentation/dirty_screen_twentythree.dart';
+import 'package:dirty_code/src/features/dirty_screen_24/presentation/dirty_screen_twentyfour.dart';
 import 'package:dirty_code/src/features/dirty_screen_3/presentation/dirty_screen_three.dart';
 import 'package:dirty_code/src/features/dirty_screen_4/presentation/dirty_screen_four.dart';
 import 'package:dirty_code/src/features/dirty_screen_5/presentation/dirty_screen_five.dart';
@@ -62,6 +69,20 @@ class OverviewScreen extends StatelessWidget {
           DirtyNavButton(destination: DirtyScreenSixteen(), number: 16),
           SizedBox(height: 16),
           DirtyNavButton(destination: DirtyScreenSeventeen(), number: 17),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenEighteen(), number: 18),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenNineteen(), number: 19),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenTwenty(), number: 20),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenTwentyOne(), number: 21),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenTwentyTwo(), number: 22),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenTwentyThree(), number: 23),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenTwentyFour(), number: 24),
         ]),
       ),
     );
